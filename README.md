@@ -34,3 +34,14 @@
         mVerticalSpan = vSpan;
     }
 ```
+
+#### 使用
+```
+//1.横竖相同
+recyclerView.addItemDecoration(new SimpleItemDecoration(Color.parseColor("#0000ff"), 20));
+//2.横竖单独设置
+recyclerView.addItemDecoration(new SimpleItemDecoration(
+                Color.parseColor("#ff0000"),
+                Color.parseColor("#000000"),
+                20, 40));
+```                
